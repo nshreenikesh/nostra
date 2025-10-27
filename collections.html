@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nostra - Collections</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">Nostra</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="collections.html">Collections</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="collections">
+    <h2>Our Collections</h2>
+
+    <div class="search-filter">
+      <input type="text" id="searchInput" placeholder="Search products...">
+      <select id="filterSelect">
+        <option value="all">All</option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+        <option value="accessories">Accessories</option>
+      </select>
+    </div>
+
+    <div id="productList" class="product-grid">
+      <div class="product" data-category="men">
+        <img src="./image/img7.jpg" alt="Men Shirt">
+        <h3>Men’s Casual Shirt</h3>
+        <p>₹999</p>
+      </div>
+      <div class="product" data-category="women">
+        <img src="./image/img5.jpg" alt="Women Dress">
+        <h3>Women’s Summer Dress</h3>
+        <p>₹1599</p>
+      </div>
+      <div class="product" data-category="accessories">
+        <img src="./image/img6.jpg" alt="Smart Watch">
+        <h3>Smart Watch</h3>
+        <p>₹2999</p>
+      </div>
+      <div class="product" data-category="men">
+        <img src="./image/img4.jpg" alt="Men Jacket">
+        <h3>Men’s Jacket</h3>
+        <p>₹1999</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nostra. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
